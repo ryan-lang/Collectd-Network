@@ -1,0 +1,577 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  B-Hooks-EndOfScope-0.21
+    pathname: E/ET/ETHER/B-Hooks-EndOfScope-0.21.tar.gz
+    provides:
+      B::Hooks::EndOfScope 0.21
+      B::Hooks::EndOfScope::PP 0.21
+      B::Hooks::EndOfScope::XS 0.21
+    requirements:
+      ExtUtils::MakeMaker 0
+      Module::Implementation 0.05
+      Sub::Exporter::Progressive 0.001006
+      Text::ParseWords 0
+      Variable::Magic 0.48
+      perl 5.008001
+      strict 0
+      warnings 0
+  Class-Method-Modifiers-2.12
+    pathname: E/ET/ETHER/Class-Method-Modifiers-2.12.tar.gz
+    provides:
+      Class::Method::Modifiers 2.12
+    requirements:
+      B 0
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      base 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Data-Alias-1.20
+    pathname: Z/ZE/ZEFRAM/Data-Alias-1.20.tar.gz
+    provides:
+      Data::Alias 1.20
+    requirements:
+      ExtUtils::MakeMaker 0
+  Devel-CallChecker-0.007
+    pathname: Z/ZE/ZEFRAM/Devel-CallChecker-0.007.tar.gz
+    provides:
+      Devel::CallChecker 0.007
+    requirements:
+      DynaLoader 0
+      DynaLoader::Functions 0.001
+      Exporter 0
+      ExtUtils::CBuilder 0.15
+      ExtUtils::ParseXS 0
+      File::Spec 0
+      IO::File 1.03
+      Module::Build 0
+      Test::More 0
+      parent 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Devel-CallParser-0.002
+    pathname: Z/ZE/ZEFRAM/Devel-CallParser-0.002.tar.gz
+    provides:
+      Devel::CallParser 0.002
+    requirements:
+      Devel::CallChecker 0.002
+      DynaLoader 0
+      DynaLoader::Functions 0.001
+      Exporter 0
+      ExtUtils::CBuilder 0.15
+      ExtUtils::ParseXS 0
+      File::Spec 0
+      IO::File 1.03
+      Module::Build 0
+      Test::More 0
+      parent 0
+      perl 5.011002
+      strict 0
+      warnings 0
+  Devel-GlobalDestruction-0.14
+    pathname: H/HA/HAARG/Devel-GlobalDestruction-0.14.tar.gz
+    provides:
+      Devel::GlobalDestruction 0.14
+    requirements:
+      ExtUtils::MakeMaker 0
+      Sub::Exporter::Progressive 0.001011
+      perl 5.006
+  Dist-CheckConflicts-0.11
+    pathname: D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz
+    provides:
+      Dist::CheckConflicts 0.11
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      Module::Runtime 0.009
+      base 0
+      strict 0
+      warnings 0
+  DynaLoader-Functions-0.002
+    pathname: Z/ZE/ZEFRAM/DynaLoader-Functions-0.002.tar.gz
+    provides:
+      DynaLoader::Functions 0.002
+    requirements:
+      Carp 0
+      DynaLoader 0
+      Exporter 0
+      Module::Build 0
+      Test::More 0
+      parent 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Exporter-Tiny-0.044
+    pathname: T/TO/TOBYINK/Exporter-Tiny-0.044.tar.gz
+    provides:
+      Exporter::Shiny 0.044
+      Exporter::Tiny 0.044
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
+  ExtUtils-Config-0.008
+    pathname: L/LE/LEONT/ExtUtils-Config-0.008.tar.gz
+    provides:
+      ExtUtils::Config 0.008
+    requirements:
+      Data::Dumper 0
+      ExtUtils::MakeMaker 6.30
+      strict 0
+      warnings 0
+  ExtUtils-Helpers-0.026
+    pathname: L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz
+    provides:
+      ExtUtils::Helpers 0.026
+      ExtUtils::Helpers::Unix 0.026
+      ExtUtils::Helpers::VMS 0.026
+      ExtUtils::Helpers::Windows 0.026
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Spec::Functions 0
+      Text::ParseWords 3.24
+      perl 5.006
+      strict 0
+      warnings 0
+  ExtUtils-InstallPaths-0.011
+    pathname: L/LE/LEONT/ExtUtils-InstallPaths-0.011.tar.gz
+    provides:
+      ExtUtils::InstallPaths 0.011
+    requirements:
+      Carp 0
+      ExtUtils::Config 0.002
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Kavorka-0.037
+    pathname: T/TO/TOBYINK/Kavorka-0.037.tar.gz
+    provides:
+      Kavorka 0.037
+      Kavorka::MethodModifier 0.037
+      Kavorka::Multi 0.037
+      Kavorka::Parameter 0.037
+      Kavorka::ReturnType 0.037
+      Kavorka::Signature 0.037
+      Kavorka::Sub 0.037
+      Kavorka::Sub::After 0.037
+      Kavorka::Sub::Around 0.037
+      Kavorka::Sub::Augment 0.037
+      Kavorka::Sub::Before 0.037
+      Kavorka::Sub::ClassMethod 0.037
+      Kavorka::Sub::Fun 0.037
+      Kavorka::Sub::Method 0.037
+      Kavorka::Sub::ObjectMethod 0.037
+      Kavorka::Sub::Override 0.037
+      Kavorka::TraitFor::Parameter::alias 0.037
+      Kavorka::TraitFor::Parameter::assumed 0.037
+      Kavorka::TraitFor::Parameter::locked 0.037
+      Kavorka::TraitFor::Parameter::optional 0.037
+      Kavorka::TraitFor::Parameter::ref_alias 0.037
+      Kavorka::TraitFor::Parameter::ro 0.037
+      Kavorka::TraitFor::ReturnType::assumed 0.037
+      Kavorka::TraitFor::Sub::begin 0.037
+      Kavorka::TraitFor::Sub::fresh 0.037
+      Kavorka::TraitFor::Sub::override 0.037
+      MooseX::KavorkaInfo 0.037
+      MooseX::KavorkaInfo::DummyInfo undef
+      MooseX::KavorkaInfo::Trait::Method 0.037
+      MooseX::KavorkaInfo::Trait::WrappedMethod 0.037
+      Parse::KeywordX 0.037
+    requirements:
+      Data::Alias 1.16
+      Exporter::Tiny 0.026
+      ExtUtils::MakeMaker 6.17
+      Module::Runtime 0
+      Moo 1.003001
+      PadWalker 0
+      Parse::Keyword 0.06
+      Return::Type 0.004
+      Sub::Util 0
+      Type::Parser 0.032
+      Type::Registry 0.032
+      Type::Utils 0.032
+      Types::Standard 0.032
+      match::simple 0
+      namespace::sweep 0.006
+      perl 5.014
+  Module-Build-Tiny-0.039
+    pathname: L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz
+    provides:
+      Module::Build::Tiny 0.039
+    requirements:
+      CPAN::Meta 0
+      DynaLoader 0
+      Exporter 5.57
+      ExtUtils::CBuilder 0
+      ExtUtils::Config 0.003
+      ExtUtils::Helpers 0.020
+      ExtUtils::Install 0
+      ExtUtils::InstallPaths 0.002
+      ExtUtils::ParseXS 0
+      File::Basename 0
+      File::Find 0
+      File::Path 0
+      File::Spec::Functions 0
+      Getopt::Long 2.36
+      JSON::PP 2
+      Pod::Man 0
+      TAP::Harness::Env 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Module-Implementation-0.09
+    pathname: D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
+    provides:
+      Module::Implementation 0.09
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Module::Runtime 0.012
+      Try::Tiny 0
+      strict 0
+      warnings 0
+  Module-Runtime-0.014
+    pathname: Z/ZE/ZEFRAM/Module-Runtime-0.014.tar.gz
+    provides:
+      Module::Runtime 0.014
+    requirements:
+      Module::Build 0
+      Test::More 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Moo-2.003002
+    pathname: H/HA/HAARG/Moo-2.003002.tar.gz
+    provides:
+      Method::Generate::Accessor undef
+      Method::Generate::BuildAll undef
+      Method::Generate::Constructor undef
+      Method::Generate::DemolishAll undef
+      Moo 2.003002
+      Moo::HandleMoose undef
+      Moo::HandleMoose::FakeConstructor undef
+      Moo::HandleMoose::FakeMetaClass undef
+      Moo::HandleMoose::_TypeMap undef
+      Moo::Object undef
+      Moo::Role 2.003002
+      Moo::_Utils undef
+      Moo::_mro undef
+      Moo::_strictures undef
+      Moo::sification undef
+      oo undef
+    requirements:
+      Class::Method::Modifiers 1.1
+      Devel::GlobalDestruction 0.11
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      Module::Runtime 0.014
+      Role::Tiny 2.000004
+      Scalar::Util 0
+      Sub::Defer 2.003001
+      Sub::Quote 2.003001
+      perl 5.006
+  Package-Stash-0.37
+    pathname: D/DO/DOY/Package-Stash-0.37.tar.gz
+    provides:
+      Package::Stash 0.37
+      Package::Stash::PP 0.37
+    requirements:
+      B 0
+      Carp 0
+      Config 0
+      Dist::CheckConflicts 0.02
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      Getopt::Long 0
+      Module::Implementation 0.06
+      Package::Stash::XS 0.26
+      Scalar::Util 0
+      Symbol 0
+      Text::ParseWords 0
+      constant 0
+      strict 0
+      warnings 0
+  Package-Stash-XS-0.28
+    pathname: D/DO/DOY/Package-Stash-XS-0.28.tar.gz
+    provides:
+      Package::Stash::XS 0.28
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      XSLoader 0
+      strict 0
+      warnings 0
+  PadWalker-2.2
+    pathname: R/RO/ROBIN/PadWalker-2.2.tar.gz
+    provides:
+      PadWalker 2.2
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
+  Parse-Keyword-0.09
+    pathname: H/HA/HAARG/Parse-Keyword-0.09.tar.gz
+    provides:
+      Parse::Keyword 0.09
+    requirements:
+      Devel::CallParser 0
+      ExtUtils::MakeMaker 0
+      XSLoader 0
+      perl 5.014
+      strict 0
+      warnings 0
+  Return-Type-0.005
+    pathname: T/TO/TOBYINK/Return-Type-0.005.tar.gz
+    provides:
+      Return::Type 0.005
+    requirements:
+      Eval::TypeTiny 0
+      ExtUtils::MakeMaker 6.17
+      Sub::Util 0
+      Types::Standard 0
+      Types::TypeTiny 0
+      perl 5.008
+  Role-Tiny-2.000005
+    pathname: H/HA/HAARG/Role-Tiny-2.000005.tar.gz
+    provides:
+      Role::Tiny 2.000005
+      Role::Tiny::With 2.000005
+    requirements:
+      Exporter 5.57
+      perl 5.006
+  Scalar-List-Utils-1.47
+    pathname: P/PE/PEVANS/Scalar-List-Utils-1.47.tar.gz
+    provides:
+      List::Util 1.47
+      List::Util::XS 1.47
+      Scalar::Util 1.47
+      Sub::Util 1.47
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      perl 5.006
+  Sub-Exporter-Progressive-0.001013
+    pathname: F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz
+    provides:
+      Sub::Exporter::Progressive 0.001013
+    requirements:
+      ExtUtils::MakeMaker 0
+  Sub-Identify-0.13
+    pathname: R/RG/RGARCIA/Sub-Identify-0.13.tar.gz
+    provides:
+      Sub::Identify 0.13
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+  Sub-Infix-0.004
+    pathname: T/TO/TOBYINK/Sub-Infix-0.004.tar.gz
+    provides:
+      Sub::Infix 0.004
+      Sub::Infix::PartialApplication undef
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      perl 5.006
+  Sub-Name-0.21
+    pathname: E/ET/ETHER/Sub-Name-0.21.tar.gz
+    provides:
+      Sub::Name 0.21
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      XSLoader 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Sub-Quote-2.003001
+    pathname: H/HA/HAARG/Sub-Quote-2.003001.tar.gz
+    provides:
+      Sub::Defer 2.003001
+      Sub::Quote 2.003001
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      perl 5.006
+  Test-Compile-v1.3.0
+    pathname: E/EG/EGILES/Test-Compile-v1.3.0.tar.gz
+    provides:
+      Test::Compile v1.3.0
+      Test::Compile::Internal v1.3.0
+    requirements:
+      Module::Build 0.38
+      UNIVERSAL::require 0
+      perl v5.6.2
+      version 0
+  Test-Harness-3.38
+    pathname: L/LE/LEONT/Test-Harness-3.38.tar.gz
+    provides:
+      App::Prove 3.38
+      App::Prove::State 3.38
+      App::Prove::State::Result 3.38
+      App::Prove::State::Result::Test 3.38
+      Harness::Hook undef
+      TAP::Base 3.38
+      TAP::Formatter::Base 3.38
+      TAP::Formatter::Color 3.38
+      TAP::Formatter::Console 3.38
+      TAP::Formatter::Console::ParallelSession 3.38
+      TAP::Formatter::Console::Session 3.38
+      TAP::Formatter::File 3.38
+      TAP::Formatter::File::Session 3.38
+      TAP::Formatter::Session 3.38
+      TAP::Harness 3.38
+      TAP::Harness::Env 3.38
+      TAP::Object 3.38
+      TAP::Parser 3.38
+      TAP::Parser::Aggregator 3.38
+      TAP::Parser::Grammar 3.38
+      TAP::Parser::Iterator 3.38
+      TAP::Parser::Iterator::Array 3.38
+      TAP::Parser::Iterator::Process 3.38
+      TAP::Parser::Iterator::Stream 3.38
+      TAP::Parser::IteratorFactory 3.38
+      TAP::Parser::Multiplexer 3.38
+      TAP::Parser::Result 3.38
+      TAP::Parser::Result::Bailout 3.38
+      TAP::Parser::Result::Comment 3.38
+      TAP::Parser::Result::Plan 3.38
+      TAP::Parser::Result::Pragma 3.38
+      TAP::Parser::Result::Test 3.38
+      TAP::Parser::Result::Unknown 3.38
+      TAP::Parser::Result::Version 3.38
+      TAP::Parser::Result::YAML 3.38
+      TAP::Parser::ResultFactory 3.38
+      TAP::Parser::Scheduler 3.38
+      TAP::Parser::Scheduler::Job 3.38
+      TAP::Parser::Scheduler::Spinner 3.38
+      TAP::Parser::Source 3.38
+      TAP::Parser::SourceHandler 3.38
+      TAP::Parser::SourceHandler::Executable 3.38
+      TAP::Parser::SourceHandler::File 3.38
+      TAP::Parser::SourceHandler::Handle 3.38
+      TAP::Parser::SourceHandler::Perl 3.38
+      TAP::Parser::SourceHandler::RawTAP 3.38
+      TAP::Parser::YAMLish::Reader 3.38
+      TAP::Parser::YAMLish::Writer 3.38
+      Test::Harness 3.38
+    requirements:
+      ExtUtils::MakeMaker 0
+  Try-Tiny-0.28
+    pathname: E/ET/ETHER/Try-Tiny-0.28.tar.gz
+    provides:
+      Try::Tiny 0.28
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      constant 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Type-Tiny-1.000006
+    pathname: T/TO/TOBYINK/Type-Tiny-1.000006.tar.gz
+    provides:
+      Devel::TypeTiny::Perl56Compat 1.000006
+      Devel::TypeTiny::Perl58Compat 1.000006
+      Error::TypeTiny 1.000006
+      Error::TypeTiny::Assertion 1.000006
+      Error::TypeTiny::Compilation 1.000006
+      Error::TypeTiny::WrongNumberOfParameters 1.000006
+      Eval::TypeTiny 1.000006
+      Reply::Plugin::TypeTiny 1.000006
+      Test::TypeTiny 1.000006
+      Type::Coercion 1.000006
+      Type::Coercion::FromMoose 1.000006
+      Type::Coercion::Union 1.000006
+      Type::Library 1.000006
+      Type::Params 1.000006
+      Type::Parser 1.000006
+      Type::Registry 1.000006
+      Type::Tiny 1.000006
+      Type::Tiny::Class 1.000006
+      Type::Tiny::Duck 1.000006
+      Type::Tiny::Enum 1.000006
+      Type::Tiny::Intersection 1.000006
+      Type::Tiny::Role 1.000006
+      Type::Tiny::Union 1.000006
+      Type::Utils 1.000006
+      Types::Common::Numeric 1.000006
+      Types::Common::String 1.000006
+      Types::Standard 1.000006
+      Types::Standard::ArrayRef 1.000006
+      Types::Standard::Dict 1.000006
+      Types::Standard::HashRef 1.000006
+      Types::Standard::Map 1.000006
+      Types::Standard::ScalarRef 1.000006
+      Types::Standard::Tuple 1.000006
+      Types::TypeTiny 1.000006
+    requirements:
+      Exporter::Tiny 0.026
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
+  UNIVERSAL-require-0.18
+    pathname: N/NE/NEILB/UNIVERSAL-require-0.18.tar.gz
+    provides:
+      UNIVERSAL::require 0.18
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
+      perl 5.006
+      strict 0
+      warnings 0
+  Variable-Magic-0.61
+    pathname: V/VP/VPIT/Variable-Magic-0.61.tar.gz
+    provides:
+      Variable::Magic 0.61
+    requirements:
+      Carp 0
+      Config 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      IO::Handle 0
+      IO::Select 0
+      IPC::Open3 0
+      POSIX 0
+      Socket 0
+      Test::More 0
+      XSLoader 0
+      base 0
+      lib 0
+      perl 5.008
+  match-simple-0.010
+    pathname: T/TO/TOBYINK/match-simple-0.010.tar.gz
+    provides:
+      match::simple 0.010
+      match::smart 0.010
+    requirements:
+      Exporter::Tiny 0.026
+      ExtUtils::MakeMaker 6.17
+      List::Util 1.33
+      Scalar::Util 0
+      Sub::Infix 0.004
+      perl 5.006001
+  namespace-sweep-0.006
+    pathname: F/FR/FRIEDO/namespace-sweep-0.006.tar.gz
+    provides:
+      namespace::sweep 0.006
+    requirements:
+      B::Hooks::EndOfScope 0.09
+      Carp 0
+      Data::Dumper 0
+      ExtUtils::MakeMaker 6.30
+      List::Util 0
+      Package::Stash 0.33
+      Scalar::Util 0
+      Sub::Identify 0.04
+      Sub::Name 0
+      Test::More 0
+      overload 0
+      strict 0
+      warnings 0
