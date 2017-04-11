@@ -21,12 +21,14 @@ while ( defined( my $row = <$fh> ) ) {
             cmp_deeply(
                 $packet,
                 Collectd::Network::Packet->new(
-                    host           => "parkadmin.df",
-                    interval_hires => 10737418240,
-                    time_hires     => 1491180309,
-                    type           => "df_complex",
-                    type_instance  => "reserved",
-                    values         => [ { data_type => "gauge", value => 0 } ]
+                    host            => "parkadmin.df",
+                    interval_hires  => 10737418240,
+                    time_hires      => 1491180309,
+                    type            => "df_complex",
+                    type_instance   => "reserved",
+                    plugin          => 'df',
+                    plugin_instance => 'root',
+                    values => [ { data_type => "gauge", value => 0 } ]
                 ),
                 "decoded line $n correctly"
             );
@@ -36,12 +38,14 @@ while ( defined( my $row = <$fh> ) ) {
             cmp_deeply(
                 $packet,
                 Collectd::Network::Packet->new(
-                    host           => "parkadmin.df",
-                    interval_hires => 10737418240,
-                    time_hires     => 1491180319,
-                    type           => "percent",
-                    type_instance  => "used",
-                    values         => [
+                    host            => "parkadmin.df",
+                    interval_hires  => 10737418240,
+                    time_hires      => 1491180319,
+                    type            => "percent",
+                    type_instance   => "used",
+                    plugin          => 'memory',
+                    plugin_instance => '',
+                    values          => [
                         { data_type => "gauge", value => 37.6926898956299 }
                     ]
                 ),

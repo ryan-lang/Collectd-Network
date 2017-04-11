@@ -10,32 +10,42 @@ has host => (
 
 has interval => (
     is  => 'ro',
-    isa => Int
+    isa => Maybe [Int]
 );
 
 has interval_hires => (
     is  => 'ro',
-    isa => Num
+    isa => Maybe [Num]
 );
 
 has time => (
     is  => 'ro',
-    isa => Int
+    isa => Maybe [Int]
 );
 
 has time_hires => (
     is  => 'ro',
-    isa => Num
+    isa => Maybe [Num]
 );
 
 has type => (
     is  => 'ro',
-    isa => Str
+    isa => Maybe [Str]
 );
 
 has type_instance => (
     is  => 'ro',
-    isa => Str
+    isa => Maybe [Str]
+);
+
+has plugin => (
+    is  => 'ro',
+    isa => Maybe [Str]
+);
+
+has plugin_instance => (
+    is  => 'ro',
+    isa => Maybe [Str]
 );
 
 has values => (
